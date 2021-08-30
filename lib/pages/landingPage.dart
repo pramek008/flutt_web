@@ -67,7 +67,7 @@ class _LandingPageState extends State<LandingPage> {
         body: Stack(
       children: [
         Image.asset(
-          'background.png',
+          'assets/background.png',
           width: MediaQuery.of(context).size.width,
           height: MediaQuery.of(context).size.height,
           fit: BoxFit.fill,
